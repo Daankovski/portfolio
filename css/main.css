@@ -6,26 +6,6 @@ html {
   box-sizing: inherit;
 }
 
-body:before {
-  background-image: -webkit-linear-gradient(left, transparent 0, #9fc 0, #9fc 6.17215%, transparent 6.17215%, transparent 8.5298%, #9fc 8.5298%, #9fc 14.70196%, transparent 14.70196%, transparent 17.05961%, #9fc 17.05961%, #9fc 23.23176%, transparent 23.23176%, transparent 25.58941%, #9fc 25.58941%, #9fc 31.76157%, transparent 31.76157%, transparent 34.11922%, #9fc 34.11922%, #9fc 40.29137%, transparent 40.29137%, transparent 42.64902%, #9fc 42.64902%, #9fc 48.82117%, transparent 48.82117%, transparent 51.17883%, #9fc 51.17883%, #9fc 57.35098%, transparent 57.35098%, transparent 59.70863%, #9fc 59.70863%, #9fc 65.88078%, transparent 65.88078%, transparent 68.23843%, #9fc 68.23843%, #9fc 74.41059%, transparent 74.41059%, transparent 76.76824%, #9fc 76.76824%, #9fc 82.94039%, transparent 82.94039%, transparent 85.29804%, #9fc 85.29804%, #9fc 91.4702%, transparent 91.4702%, transparent 93.82785%, #9fc 93.82785%, #9fc 100%, transparent 100%);
-  background-image: -moz-linear-gradient(left, transparent 0, #9fc 0, #9fc 6.17215%, transparent 6.17215%, transparent 8.5298%, #9fc 8.5298%, #9fc 14.70196%, transparent 14.70196%, transparent 17.05961%, #9fc 17.05961%, #9fc 23.23176%, transparent 23.23176%, transparent 25.58941%, #9fc 25.58941%, #9fc 31.76157%, transparent 31.76157%, transparent 34.11922%, #9fc 34.11922%, #9fc 40.29137%, transparent 40.29137%, transparent 42.64902%, #9fc 42.64902%, #9fc 48.82117%, transparent 48.82117%, transparent 51.17883%, #9fc 51.17883%, #9fc 57.35098%, transparent 57.35098%, transparent 59.70863%, #9fc 59.70863%, #9fc 65.88078%, transparent 65.88078%, transparent 68.23843%, #9fc 68.23843%, #9fc 74.41059%, transparent 74.41059%, transparent 76.76824%, #9fc 76.76824%, #9fc 82.94039%, transparent 82.94039%, transparent 85.29804%, #9fc 85.29804%, #9fc 91.4702%, transparent 91.4702%, transparent 93.82785%, #9fc 93.82785%, #9fc 100%, transparent 100%);
-  background-image: -ms-linear-gradient(left, transparent 0, #9fc 0, #9fc 6.17215%, transparent 6.17215%, transparent 8.5298%, #9fc 8.5298%, #9fc 14.70196%, transparent 14.70196%, transparent 17.05961%, #9fc 17.05961%, #9fc 23.23176%, transparent 23.23176%, transparent 25.58941%, #9fc 25.58941%, #9fc 31.76157%, transparent 31.76157%, transparent 34.11922%, #9fc 34.11922%, #9fc 40.29137%, transparent 40.29137%, transparent 42.64902%, #9fc 42.64902%, #9fc 48.82117%, transparent 48.82117%, transparent 51.17883%, #9fc 51.17883%, #9fc 57.35098%, transparent 57.35098%, transparent 59.70863%, #9fc 59.70863%, #9fc 65.88078%, transparent 65.88078%, transparent 68.23843%, #9fc 68.23843%, #9fc 74.41059%, transparent 74.41059%, transparent 76.76824%, #9fc 76.76824%, #9fc 82.94039%, transparent 82.94039%, transparent 85.29804%, #9fc 85.29804%, #9fc 91.4702%, transparent 91.4702%, transparent 93.82785%, #9fc 93.82785%, #9fc 100%, transparent 100%);
-  background-image: -o-linear-gradient(left, transparent 0, #9fc 0, #9fc 6.17215%, transparent 6.17215%, transparent 8.5298%, #9fc 8.5298%, #9fc 14.70196%, transparent 14.70196%, transparent 17.05961%, #9fc 17.05961%, #9fc 23.23176%, transparent 23.23176%, transparent 25.58941%, #9fc 25.58941%, #9fc 31.76157%, transparent 31.76157%, transparent 34.11922%, #9fc 34.11922%, #9fc 40.29137%, transparent 40.29137%, transparent 42.64902%, #9fc 42.64902%, #9fc 48.82117%, transparent 48.82117%, transparent 51.17883%, #9fc 51.17883%, #9fc 57.35098%, transparent 57.35098%, transparent 59.70863%, #9fc 59.70863%, #9fc 65.88078%, transparent 65.88078%, transparent 68.23843%, #9fc 68.23843%, #9fc 74.41059%, transparent 74.41059%, transparent 76.76824%, #9fc 76.76824%, #9fc 82.94039%, transparent 82.94039%, transparent 85.29804%, #9fc 85.29804%, #9fc 91.4702%, transparent 91.4702%, transparent 93.82785%, #9fc 93.82785%, #9fc 100%, transparent 100%);
-  background-image: linear-gradient(to left, transparent 0, #9fc 0, #9fc 6.17215%, transparent 6.17215%, transparent 8.5298%, #9fc 8.5298%, #9fc 14.70196%, transparent 14.70196%, transparent 17.05961%, #9fc 17.05961%, #9fc 23.23176%, transparent 23.23176%, transparent 25.58941%, #9fc 25.58941%, #9fc 31.76157%, transparent 31.76157%, transparent 34.11922%, #9fc 34.11922%, #9fc 40.29137%, transparent 40.29137%, transparent 42.64902%, #9fc 42.64902%, #9fc 48.82117%, transparent 48.82117%, transparent 51.17883%, #9fc 51.17883%, #9fc 57.35098%, transparent 57.35098%, transparent 59.70863%, #9fc 59.70863%, #9fc 65.88078%, transparent 65.88078%, transparent 68.23843%, #9fc 68.23843%, #9fc 74.41059%, transparent 74.41059%, transparent 76.76824%, #9fc 76.76824%, #9fc 82.94039%, transparent 82.94039%, transparent 85.29804%, #9fc 85.29804%, #9fc 91.4702%, transparent 91.4702%, transparent 93.82785%, #9fc 93.82785%, #9fc 100%, transparent 100%);
-  content: "";
-  display: inline-block;
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 1200px;
-  opacity: 0.4;
-  pointer-events: none;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  z-index: -1;
-}
-
 progress, sub, sup {
   vertical-align: baseline;
 }
@@ -437,6 +417,14 @@ hr {
   margin: 1.5em 0;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
 .page-content {
   position: relative;
   z-index: 0;
@@ -446,6 +434,9 @@ hr {
   text-decoration: none;
   font-size: 30px;
   color: black;
+  -webkit-transition: all 0.15s ease-out 0s;
+  -moz-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s;
   position: fixed;
   top: 20px;
   right: 0;
@@ -461,6 +452,9 @@ hr {
   right: 0;
   bottom: 0px;
   left: -210px;
+  -webkit-transition: all 0.15s ease-out 0s;
+  -moz-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s;
   z-index: 0;
   width: 200px;
   padding: 40px;
@@ -494,6 +488,10 @@ hr {
 
 #sidebartoggle:checked + .page-wrap .page-content {
   padding-left: 180px;
+}
+
+#sidebartoggle:checked + .page-wrap .footer-2 {
+  margin-left: 180px;
 }
 
 .footer-2 {
@@ -606,10 +604,11 @@ body .page-content {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  margin-left: 15em;
 }
 
 body .page-content::after {
   clear: both;
   content: "";
-  display: block;
+  display: table;
 }

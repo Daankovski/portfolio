@@ -1,5 +1,5 @@
-@import "bourbon";
-@import "neat";
+@import "bourbon"
+@import "neat"
 
 .page-content
     position: relative
@@ -7,30 +7,31 @@
     
 .toggle
     text-decoration: none
-    font-size: 30px
+    font-size: 2.2em
     color: black
     +transition()
-    +position(fixed, 20px 0 0 20px)
+    +position(fixed, 1em 0 0 0.7em)
     z-index: 1
     cursor: pointer
     
 
 .sidebar
-    +position(fixed, 0px 0 0px -210px)
+    +position(fixed, 0em 0 0em -12em)
     +transition()
     z-index: 0
-    width: 200px
-    padding: 40px
+    width: 12em
+    padding: 3em
     background: #333
     //display: none
     
     li
+        margin-bottom: 1em
         color: rgba(255,255,255,0.8)
         font-family: 'Ubuntu', sans-serif
-        font-size: 18px
-        margin-bottom: 16px
+        font-size: 1.2em
         -webkit-font-smoothing: antialiased
         cursor: pointer
+        
         
         &:hover
             color: rgba(255,255,255,1)
@@ -41,13 +42,11 @@
     &:checked + .page-wrap
         
         .sidebar
-            left: 0px
+            left: 0em
             
         .toggle
-            left: 220px
+            left: 6.5em
             
         .page-content
-            padding-left: 180px
+            left: 12em
         
-        .footer-2
-            margin-left: 180px

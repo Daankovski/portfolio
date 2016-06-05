@@ -1,8 +1,18 @@
 body
     background-color: tint(grey, 95%)
+    display: block
     
     .page-content
         +outer-container
-        margin-left: 15em
+        padding-left: 5em
+        
+        p
+            +span-columns(9)
+            +shift(1)
+        
+        .slides
+            +span-columns(10)
+            +shift(1)
+            
         
 

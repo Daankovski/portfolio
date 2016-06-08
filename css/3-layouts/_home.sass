@@ -1,18 +1,17 @@
 body
     background-color: tint(grey, 95%)
-    display: block
+    //background-color: black
     
-    .page-content
+    .page-wrap
         +outer-container
-        padding-left: 5em
-        
-        p
-            +span-columns(9)
-            +shift(1)
-        
+        +span-columns(12)
+        +shift(3)
         .slides
-            +span-columns(10)
-            +shift(1)
+            margin: auto
             
-        
+        .workgallery
+            z-index: 2
+            +span-columns(12)
+            
+            
 

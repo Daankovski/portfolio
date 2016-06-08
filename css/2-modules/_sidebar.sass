@@ -13,6 +13,7 @@
     +position(fixed, 1em 0 0 0.7em)
     z-index: 1
     cursor: pointer
+    +size(1em)
     
 
 .sidebar
@@ -20,7 +21,7 @@
     +transition()
     z-index: 0
     width: 12em
-    padding: 3em
+    padding: 2em
     background: #333
     //display: none
     
@@ -28,10 +29,17 @@
         margin-bottom: 1em
         color: rgba(255,255,255,0.8)
         font-family: 'Ubuntu', sans-serif
-        font-size: 1.2em
+        font-size: 1.5em
+        text-allign: center
         -webkit-font-smoothing: antialiased
         cursor: pointer
-        
+        display: inline-block
+        outline: none
+        padding: 0 6.3em
+        position: relative
+        border-bottom: 1px solid tint(black, 15%)
+        +size(10em 2em)
+        left: -6em
         
         &:hover
             color: rgba(255,255,255,1)
@@ -47,6 +55,7 @@
         .toggle
             left: 6.5em
             
-        .page-content
-            left: 12em
+        .page-wrap
+            *
+                left: 12em
         

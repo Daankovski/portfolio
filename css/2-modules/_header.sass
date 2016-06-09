@@ -1,0 +1,20 @@
+.header
+    z-index: -5
+    background-color: tint(black, 20%)
+    +size(100% 5em)
+
+    li
+        margin: 1.5em 0 1em 0
+        color: rgba(255,255,255,0.8)
+        font-family: 'Ubuntu', sans-serif
+        font-size: 1em
+        text-allign: center
+        -webkit-font-smoothing: antialiased
+        cursor: pointer
+        display: inline-block
+        outline: none
+        +position(relative, 0 0 0 75%)
+        +size(5em 1.5em)
+
+        &:hover
+            color: rgba(255,255,255,1)

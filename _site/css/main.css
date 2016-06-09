@@ -14,7 +14,7 @@ body:before {
   height: 100%;
   left: 0;
   margin: 0 auto;
-  max-width: 1250px;
+  max-width: 1300px;
   opacity: 0.4;
   pointer-events: none;
   position: fixed;
@@ -446,18 +446,13 @@ body:before {
   height: 100%;
   left: 0;
   margin: 0 auto;
-  max-width: 1250px;
+  max-width: 1300px;
   opacity: 0.4;
   pointer-events: none;
   position: fixed;
   right: 0;
   width: 100%;
   z-index: -1;
-}
-
-.page-content {
-  position: relative;
-  z-index: 0;
 }
 
 .toggle {
@@ -492,18 +487,18 @@ body:before {
   margin-bottom: 1em;
   color: rgba(255, 255, 255, 0.8);
   font-family: "Ubuntu", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-allign: center;
   -webkit-font-smoothing: antialiased;
   cursor: pointer;
   display: inline-block;
   outline: none;
-  padding: 0 6.3em;
+  padding: 0 8.15em;
   position: relative;
   border-bottom: 1px solid #262626;
-  height: 2em;
+  height: 1.5em;
   width: 10em;
-  left: -6em;
+  left: -8em;
 }
 .sidebar li:hover {
   color: white;
@@ -605,6 +600,13 @@ body:before {
 }
 .footer-2 .footer-secondary-links ul.footer-social img:focus, .footer-2 .footer-secondary-links ul.footer-social img:hover {
   opacity: 1;
+}
+
+.sliderbackground {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  padding: 1em;
 }
 
 .slides {
@@ -716,50 +718,71 @@ input#img-1:checked ~ .nav-dots label#img-dot-1, input#img-2:checked ~ .nav-dots
 }
 
 .workgallery {
-  position: relative;
-  border: 3px solid black;
-  display: -webkit-flex;
+  padding: 0;
+  margin: 5em 0 5em 0;
+  list-style: none;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  top: 5em;
+  -webkit-flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
 }
 .workgallery .workimages {
   background-color: #ff6666;
   margin: 1em 1em 0 0;
-  -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
-body {
-  background-color: #f9f9f9;
-}
-body .page-wrap {
-  max-width: 1250px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 5em;
+  width: 9.5em;
   float: left;
   display: block;
   margin-right: 2.35765%;
+  width: 31.76157%;
+}
+.workgallery .workimages:last-child {
+  margin-right: 0;
+}
+
+.header {
+  z-index: -5;
+  background-color: #333333;
+  height: 5em;
   width: 100%;
-  margin-left: 25.58941%;
+}
+.header li {
+  margin: 1.5em 0 1em 0;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1em;
+  text-allign: center;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 75%;
+  height: 1.5em;
+  width: 5em;
+}
+.header li:hover {
+  color: white;
+}
+
+body {
+  background-image: url("../../img/ignasi_pattern_s.png");
+}
+body .page-wrap {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 body .page-wrap::after {
   clear: both;
   content: "";
   display: table;
-}
-body .page-wrap:last-child {
-  margin-right: 0;
 }
 body .page-wrap .slides {
   margin: auto;

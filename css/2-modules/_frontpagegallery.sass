@@ -1,6 +1,5 @@
-.workgallery
-    padding: 0
-    margin: 5em 0 5em 0
+.imagegallery
+    +outer-container
     list-style: none
     display: -webkit-box
     display: -moz-box
@@ -8,11 +7,15 @@
     display: -webkit-flex
     display: flex
     -webkit-flex-flow: row wrap
-    justify-content: space-around
-
+    +span-columns(12)
+    justify-content: space-between
+    padding: 0 0 1em 0
+    background-color: #9282E8
 
     .workimages
         background-color: tint(red, 40%)
         margin: 1em 1em 0 0
+        padding: 0
         +size(9.5em 5em)
         +span-columns(4)
+

@@ -513,7 +513,7 @@ body:before {
 #sidebartoggle:checked + .page-wrap .toggle {
   left: 6.5em;
 }
-#sidebartoggle:checked + .page-wrap .page-wrap * {
+#sidebartoggle:checked + .page-wrap .page-wrap > * {
   left: 12em;
 }
 
@@ -605,7 +605,7 @@ body:before {
 .sliderbackground {
   height: 100%;
   width: 100%;
-  background-color: white;
+  background-color: #FFFFFF;
   padding: 1em;
 }
 
@@ -717,21 +717,37 @@ input#img-1:checked ~ .nav-dots label#img-dot-1, input#img-2:checked ~ .nav-dots
   background: rgba(0, 0, 0, 0.8);
 }
 
-.workgallery {
-  padding: 0;
-  margin: 5em 0 5em 0;
+.imagegallery {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
   list-style: none;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
-  -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 0 1em 0;
+  background-color: #9282E8;
 }
-.workgallery .workimages {
+.imagegallery::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.imagegallery:last-child {
+  margin-right: 0;
+}
+.imagegallery .workimages {
   background-color: #ff6666;
   margin: 1em 1em 0 0;
+  padding: 0;
   height: 5em;
   width: 9.5em;
   float: left;
@@ -739,7 +755,7 @@ input#img-1:checked ~ .nav-dots label#img-dot-1, input#img-2:checked ~ .nav-dots
   margin-right: 2.35765%;
   width: 31.76157%;
 }
-.workgallery .workimages:last-child {
+.imagegallery .workimages:last-child {
   margin-right: 0;
 }
 
@@ -771,6 +787,29 @@ input#img-1:checked ~ .nav-dots label#img-dot-1, input#img-2:checked ~ .nav-dots
   color: white;
 }
 
+.aboutme {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background-color: #9BBDF2;
+}
+.aboutme .aboutmeimg {
+  display: inline-block;
+  height: 15em;
+  width: 15em;
+  background-color: white;
+  z-index: 1;
+  border-radius: 50%;
+  margin: 5em 0 0 5em;
+  border: 1px solid black;
+}
+.aboutme .aboutmetext {
+  text-align: left;
+  z-index: 5;
+  margin: 0 0 1em 0;
+  border: 1px solid black;
+}
+
 body {
   background-image: url("../../img/ignasi_pattern_s.png");
 }
@@ -784,16 +823,6 @@ body .page-wrap::after {
   content: "";
   display: table;
 }
-body .page-wrap .slides {
-  margin: auto;
-}
 body .page-wrap .workgallery {
   z-index: 2;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-}
-body .page-wrap .workgallery:last-child {
-  margin-right: 0;
 }

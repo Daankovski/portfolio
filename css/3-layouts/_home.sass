@@ -1,11 +1,41 @@
 body
-    background-image: url("../../img/ignasi_pattern_s.png")
+    font-family: 'Lato', arial, sans-serif
+    color: #434343
+    background: #DAE3E7
+    font-size: 16px
+    -webkit-font-smoothing: antialiased
 
-    .page-wrap
+    h1, h2, h3, h4, h5, h6
+        font-family: 'Montserrat', sans-serif
+        font-weight: 700
+        color: #778492
+
+    .page-content-primary, .page-content-side
         +outer-container
 
-        .workgallery
-            z-index: 2
+    .page-content-primary
+        +span-columns(9 of 21)
+        +shift(3)
+
+    .page-content-side
+        +span-columns(6 of 21)
+
+    .primary, .side
+        background-color: #fff
+        padding: 30px
+        margin-bottom: 30px
+.heading
+    margin-top: 0
+    margin-bottom: 30px
+    color: #545e69
+    font-size: 28px
+
+    #last
+        margin-bottom: 0px
+
+
+
+
 
 
 

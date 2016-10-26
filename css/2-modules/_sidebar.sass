@@ -22,7 +22,6 @@
     //display: none
 
     li
-        margin-bottom: 1em
         color: rgba(255,255,255,0.8)
         font-family: 'Ubuntu', sans-serif
         font-size: 1.2em
@@ -31,14 +30,17 @@
         cursor: pointer
         display: inline-block
         outline: none
-        padding: 0 8.15em
-        position: relative
-        border-bottom: 1px solid tint(black, 15%)
+        margin: 0 0 2em 1em
         +size(10em 1.5em)
         left: -8em
 
         &:hover
             color: rgba(255,255,255,1)
+
+        a
+            color: inherit
+
+
 
 #sidebartoggle
     display: none
@@ -50,6 +52,3 @@
 
         .toggle
             left: 6.5em
-
-        .page-wrap > *
-            left: 12em

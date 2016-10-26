@@ -16,13 +16,13 @@ $gutter: modular-scale(1, 1em, $golden) !default;
 ///
 /// @type Number (Unitless)
 
-$grid-columns: 12 !default;
+$grid-columns: 21 !default;
 
 /// Sets the max-width property of the element that includes `outer-container()`. Set with the `!global` flag.
 ///
 /// @type Number (Unit)
 ///
-$max-width: 1300px !default;
+$max-width: 1920px !default;
 
 /// When set to true, it sets the box-sizing property of all elements to `border-box`. Set with a `!global` flag.
 ///

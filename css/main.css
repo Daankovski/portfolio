@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Varela+Round);
 html {
   box-sizing: border-box;
 }
@@ -8,13 +7,13 @@ html {
 }
 
 body:before {
-  background-image: linear-gradient(to left, transparent 0, darkblue 0, darkblue 6.17215%, transparent 6.17215%, transparent 8.5298%, darkblue 8.5298%, darkblue 14.70196%, transparent 14.70196%, transparent 17.05961%, darkblue 17.05961%, darkblue 23.23176%, transparent 23.23176%, transparent 25.58941%, darkblue 25.58941%, darkblue 31.76157%, transparent 31.76157%, transparent 34.11922%, darkblue 34.11922%, darkblue 40.29137%, transparent 40.29137%, transparent 42.64902%, darkblue 42.64902%, darkblue 48.82117%, transparent 48.82117%, transparent 51.17883%, darkblue 51.17883%, darkblue 57.35098%, transparent 57.35098%, transparent 59.70863%, darkblue 59.70863%, darkblue 65.88078%, transparent 65.88078%, transparent 68.23843%, darkblue 68.23843%, darkblue 74.41059%, transparent 74.41059%, transparent 76.76824%, darkblue 76.76824%, darkblue 82.94039%, transparent 82.94039%, transparent 85.29804%, darkblue 85.29804%, darkblue 91.4702%, transparent 91.4702%, transparent 93.82785%, darkblue 93.82785%, darkblue 100.0%, transparent 100.0%);
+  background-image: linear-gradient(to left, transparent 0, darkblue 0, darkblue 3.49166%, transparent 3.49166%, transparent 4.82542%, darkblue 4.82542%, darkblue 8.31708%, transparent 8.31708%, transparent 9.65083%, darkblue 9.65083%, darkblue 13.1425%, transparent 13.1425%, transparent 14.47625%, darkblue 14.47625%, darkblue 17.96791%, transparent 17.96791%, transparent 19.30167%, darkblue 19.30167%, darkblue 22.79333%, transparent 22.79333%, transparent 24.12708%, darkblue 24.12708%, darkblue 27.61875%, transparent 27.61875%, transparent 28.9525%, darkblue 28.9525%, darkblue 32.44416%, transparent 32.44416%, transparent 33.77792%, darkblue 33.77792%, darkblue 37.26958%, transparent 37.26958%, transparent 38.60333%, darkblue 38.60333%, darkblue 42.095%, transparent 42.095%, transparent 43.42875%, darkblue 43.42875%, darkblue 46.92042%, transparent 46.92042%, transparent 48.25417%, darkblue 48.25417%, darkblue 51.74583%, transparent 51.74583%, transparent 53.07958%, darkblue 53.07958%, darkblue 56.57125%, transparent 56.57125%, transparent 57.905%, darkblue 57.905%, darkblue 61.39667%, transparent 61.39667%, transparent 62.73042%, darkblue 62.73042%, darkblue 66.22208%, transparent 66.22208%, transparent 67.55584%, darkblue 67.55584%, darkblue 71.0475%, transparent 71.0475%, transparent 72.38125%, darkblue 72.38125%, darkblue 75.87292%, transparent 75.87292%, transparent 77.20667%, darkblue 77.20667%, darkblue 80.69833%, transparent 80.69833%, transparent 82.03209%, darkblue 82.03209%, darkblue 85.52375%, transparent 85.52375%, transparent 86.8575%, darkblue 86.8575%, darkblue 90.34917%, transparent 90.34917%, transparent 91.68292%, darkblue 91.68292%, darkblue 95.17458%, transparent 95.17458%, transparent 96.50834%, darkblue 96.50834%, darkblue 100.0%, transparent 100.0%);
   content: "";
   display: inline-block;
   height: 100%;
   left: 0;
   margin: 0 auto;
-  max-width: 1300px;
+  max-width: 1920px;
   opacity: 0.4;
   pointer-events: none;
   position: fixed;
@@ -440,13 +439,13 @@ html {
 }
 
 body:before {
-  background-image: linear-gradient(to left, transparent 0, darkblue 0, darkblue 6.17215%, transparent 6.17215%, transparent 8.5298%, darkblue 8.5298%, darkblue 14.70196%, transparent 14.70196%, transparent 17.05961%, darkblue 17.05961%, darkblue 23.23176%, transparent 23.23176%, transparent 25.58941%, darkblue 25.58941%, darkblue 31.76157%, transparent 31.76157%, transparent 34.11922%, darkblue 34.11922%, darkblue 40.29137%, transparent 40.29137%, transparent 42.64902%, darkblue 42.64902%, darkblue 48.82117%, transparent 48.82117%, transparent 51.17883%, darkblue 51.17883%, darkblue 57.35098%, transparent 57.35098%, transparent 59.70863%, darkblue 59.70863%, darkblue 65.88078%, transparent 65.88078%, transparent 68.23843%, darkblue 68.23843%, darkblue 74.41059%, transparent 74.41059%, transparent 76.76824%, darkblue 76.76824%, darkblue 82.94039%, transparent 82.94039%, transparent 85.29804%, darkblue 85.29804%, darkblue 91.4702%, transparent 91.4702%, transparent 93.82785%, darkblue 93.82785%, darkblue 100.0%, transparent 100.0%);
+  background-image: linear-gradient(to left, transparent 0, darkblue 0, darkblue 3.49166%, transparent 3.49166%, transparent 4.82542%, darkblue 4.82542%, darkblue 8.31708%, transparent 8.31708%, transparent 9.65083%, darkblue 9.65083%, darkblue 13.1425%, transparent 13.1425%, transparent 14.47625%, darkblue 14.47625%, darkblue 17.96791%, transparent 17.96791%, transparent 19.30167%, darkblue 19.30167%, darkblue 22.79333%, transparent 22.79333%, transparent 24.12708%, darkblue 24.12708%, darkblue 27.61875%, transparent 27.61875%, transparent 28.9525%, darkblue 28.9525%, darkblue 32.44416%, transparent 32.44416%, transparent 33.77792%, darkblue 33.77792%, darkblue 37.26958%, transparent 37.26958%, transparent 38.60333%, darkblue 38.60333%, darkblue 42.095%, transparent 42.095%, transparent 43.42875%, darkblue 43.42875%, darkblue 46.92042%, transparent 46.92042%, transparent 48.25417%, darkblue 48.25417%, darkblue 51.74583%, transparent 51.74583%, transparent 53.07958%, darkblue 53.07958%, darkblue 56.57125%, transparent 56.57125%, transparent 57.905%, darkblue 57.905%, darkblue 61.39667%, transparent 61.39667%, transparent 62.73042%, darkblue 62.73042%, darkblue 66.22208%, transparent 66.22208%, transparent 67.55584%, darkblue 67.55584%, darkblue 71.0475%, transparent 71.0475%, transparent 72.38125%, darkblue 72.38125%, darkblue 75.87292%, transparent 75.87292%, transparent 77.20667%, darkblue 77.20667%, darkblue 80.69833%, transparent 80.69833%, transparent 82.03209%, darkblue 82.03209%, darkblue 85.52375%, transparent 85.52375%, transparent 86.8575%, darkblue 86.8575%, darkblue 90.34917%, transparent 90.34917%, transparent 91.68292%, darkblue 91.68292%, darkblue 95.17458%, transparent 95.17458%, transparent 96.50834%, darkblue 96.50834%, darkblue 100.0%, transparent 100.0%);
   content: "";
   display: inline-block;
   height: 100%;
   left: 0;
   margin: 0 auto;
-  max-width: 1300px;
+  max-width: 1920px;
   opacity: 0.4;
   pointer-events: none;
   position: fixed;
@@ -484,7 +483,6 @@ body:before {
   background: #333;
 }
 .sidebar li {
-  margin-bottom: 1em;
   color: rgba(255, 255, 255, 0.8);
   font-family: "Ubuntu", sans-serif;
   font-size: 1.2em;
@@ -493,15 +491,16 @@ body:before {
   cursor: pointer;
   display: inline-block;
   outline: none;
-  padding: 0 8.15em;
-  position: relative;
-  border-bottom: 1px solid #262626;
+  margin: 0 0 2em 1em;
   height: 1.5em;
   width: 10em;
   left: -8em;
 }
 .sidebar li:hover {
   color: white;
+}
+.sidebar li a {
+  color: inherit;
 }
 
 #sidebartoggle {
@@ -512,9 +511,6 @@ body:before {
 }
 #sidebartoggle:checked + .page-wrap .toggle {
   left: 6.5em;
-}
-#sidebartoggle:checked + .page-wrap .page-wrap > * {
-  left: 12em;
 }
 
 .footer-2 {
@@ -602,227 +598,454 @@ body:before {
   opacity: 1;
 }
 
-.sliderbackground {
-  height: 100%;
-  width: 100%;
-  background-color: #FFFFFF;
-  padding: 1em;
+html {
+  box-sizing: border-box;
 }
 
-.slides {
-  padding: 0;
-  width: 75em;
-  height: 35em;
-  display: block;
-  margin: 0 auto;
-  position: relative;
-}
-.slides * {
-  user-select: none;
-  -ms-user-select: none;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  -webkit-touch-callout: none;
-}
-.slides input {
-  display: none;
+*, *::after, *::before {
+  box-sizing: inherit;
 }
 
-.slide-container {
-  display: block;
-}
-
-.slide {
-  top: 0;
-  opacity: 0;
-  width: 75em;
-  height: 35em;
-  display: block;
-  position: absolute;
-  -webkit-transform: scale(0);
-      -ms-transform: scale(0);
-          transform: scale(0);
-  transition: all 0.7s ease-in-out;
-}
-.slide img {
-  width: 100%;
-  height: 100%;
-}
-
-.nav label {
-  width: 1em;
-  height: 100%;
-  display: none;
-  position: absolute;
-  opacity: 0;
-  z-index: 9;
-  cursor: pointer;
-  transition: opacity 0.2s;
-  color: #FFF;
-  font-size: 156pt;
-  text-align: center;
-  line-height: 380px;
-  font-family: "Varela Round", sans-serif;
-  background-color: rgba(255, 255, 255, 0.3);
-  text-shadow: 0px 0px 15px #777777;
-}
-
-.slide:hover + .nav label {
-  opacity: 0.5;
-}
-
-.nav label:hover {
-  opacity: 1;
-}
-.nav .next {
-  right: 0;
-}
-
-input:checked + .slide-container .slide {
-  opacity: 1;
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
-  transition: opacity 1s ease-in-out;
-}
-input:checked + .slide-container .nav label {
-  display: block;
-}
-
-.nav-dots {
-  width: 100%;
-  bottom: 9px;
-  height: 11px;
-  display: block;
-  position: absolute;
-  text-align: center;
-}
-.nav-dots .nav-dot {
-  top: -5px;
-  width: 11px;
-  height: 11px;
-  margin: 0 4px;
-  position: relative;
-  border-radius: 100%;
+body:before {
+  background-image: linear-gradient(to left, transparent 0, darkblue 0, darkblue 3.49166%, transparent 3.49166%, transparent 4.82542%, darkblue 4.82542%, darkblue 8.31708%, transparent 8.31708%, transparent 9.65083%, darkblue 9.65083%, darkblue 13.1425%, transparent 13.1425%, transparent 14.47625%, darkblue 14.47625%, darkblue 17.96791%, transparent 17.96791%, transparent 19.30167%, darkblue 19.30167%, darkblue 22.79333%, transparent 22.79333%, transparent 24.12708%, darkblue 24.12708%, darkblue 27.61875%, transparent 27.61875%, transparent 28.9525%, darkblue 28.9525%, darkblue 32.44416%, transparent 32.44416%, transparent 33.77792%, darkblue 33.77792%, darkblue 37.26958%, transparent 37.26958%, transparent 38.60333%, darkblue 38.60333%, darkblue 42.095%, transparent 42.095%, transparent 43.42875%, darkblue 43.42875%, darkblue 46.92042%, transparent 46.92042%, transparent 48.25417%, darkblue 48.25417%, darkblue 51.74583%, transparent 51.74583%, transparent 53.07958%, darkblue 53.07958%, darkblue 56.57125%, transparent 56.57125%, transparent 57.905%, darkblue 57.905%, darkblue 61.39667%, transparent 61.39667%, transparent 62.73042%, darkblue 62.73042%, darkblue 66.22208%, transparent 66.22208%, transparent 67.55584%, darkblue 67.55584%, darkblue 71.0475%, transparent 71.0475%, transparent 72.38125%, darkblue 72.38125%, darkblue 75.87292%, transparent 75.87292%, transparent 77.20667%, darkblue 77.20667%, darkblue 80.69833%, transparent 80.69833%, transparent 82.03209%, darkblue 82.03209%, darkblue 85.52375%, transparent 85.52375%, transparent 86.8575%, darkblue 86.8575%, darkblue 90.34917%, transparent 90.34917%, transparent 91.68292%, darkblue 91.68292%, darkblue 95.17458%, transparent 95.17458%, transparent 96.50834%, darkblue 96.50834%, darkblue 100.0%, transparent 100.0%);
+  content: "";
   display: inline-block;
-  background-color: rgba(0, 0, 0, 0.6);
-}
-.nav-dots .nav-dot:hover {
-  cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  max-width: 1920px;
+  opacity: 0.4;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: -1;
 }
 
-input#img-1:checked ~ .nav-dots label#img-dot-1, input#img-2:checked ~ .nav-dots label#img-dot-2, input#img-3:checked ~ .nav-dots label#img-dot-3, input#img-4:checked ~ .nav-dots label#img-dot-4, input#img-5:checked ~ .nav-dots label#img-dot-5, input#img-6:checked ~ .nav-dots label#img-dot-6 {
-  background: rgba(0, 0, 0, 0.8);
-}
-
-.imagegallery {
-  max-width: 1300px;
+#header {
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  list-style: none;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
+  span-columns: 21;
+  z-index: -5;
+  background-color: #f5f5f5;
+  height: 250px;
   width: 100%;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 0 0 1em 0;
-  background-color: #9282E8;
+  padding: 30px 0;
+  border-top: 10px solid #778492;
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 30px;
 }
-.imagegallery::after {
+#header::after {
   clear: both;
   content: "";
   display: table;
 }
-.imagegallery:last-child {
-  margin-right: 0;
-}
-.imagegallery .workimages {
-  background-color: #ff6666;
-  margin: 1em 1em 0 0;
-  padding: 0;
-  height: 5em;
-  width: 9.5em;
+#header .container {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%;
-}
-.imagegallery .workimages:last-child {
-  margin-right: 0;
-}
-
-.header {
-  z-index: -5;
-  background-color: #333333;
-  height: 5em;
+  margin-right: 1.33375%;
+  width: 90.34917%;
+  margin-left: 4.82542%;
+  height: 100%;
   width: 100%;
 }
-.header li {
-  margin: 1.5em 0 1em 0;
-  color: rgba(255, 255, 255, 0.8);
-  font-family: "Ubuntu", sans-serif;
-  font-size: 1em;
-  text-allign: center;
-  -webkit-font-smoothing: antialiased;
-  cursor: pointer;
-  display: inline-block;
-  outline: none;
+#header .container:last-child {
+  margin-right: 0;
+}
+#header .container .image {
+  float: left;
+  display: block;
+  margin-right: 1.33375%;
+  width: 8.31708%;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 0;
+  margin-right: 30px;
+}
+#header .container .image:last-child {
+  margin-right: 0;
+}
+#header .container .header_content {
+  float: left;
+  display: block;
+  margin-right: 1.33375%;
+  width: 17.96791%;
+  z-index: 1;
   position: relative;
-  top: 0;
+  top: -170px;
   right: 0;
   bottom: 0;
-  left: 75%;
-  height: 1.5em;
-  width: 5em;
+  left: 220px;
+  cursor: pointer;
+  text-align: left;
+  height: 20%;
+  width: 100%;
 }
-.header li:hover {
+#header .container .header_content:last-child {
+  margin-right: 0;
+}
+#header .container .header_content .name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  margin: 30px 0 5px 0;
+  color: #49515a;
+}
+#header .container .header_content .desc {
+  color: #778492;
+  font-family: "Lato", arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+#header .container .header_content .links li {
+  display: inline-block;
+  height: 36px;
+  width: 36px;
+  background-color: silver;
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  padding: 6px;
+  text-align: center;
+  list-style: none;
+  margin-right: 10px;
+}
+#header .container .header_content .links li i {
   color: white;
+  text-align: center;
+}
+#header .container .header_content .links li:hover {
+  background-color: #8d8d8d;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body:before {
+  background-image: linear-gradient(to left, transparent 0, darkblue 0, darkblue 3.49166%, transparent 3.49166%, transparent 4.82542%, darkblue 4.82542%, darkblue 8.31708%, transparent 8.31708%, transparent 9.65083%, darkblue 9.65083%, darkblue 13.1425%, transparent 13.1425%, transparent 14.47625%, darkblue 14.47625%, darkblue 17.96791%, transparent 17.96791%, transparent 19.30167%, darkblue 19.30167%, darkblue 22.79333%, transparent 22.79333%, transparent 24.12708%, darkblue 24.12708%, darkblue 27.61875%, transparent 27.61875%, transparent 28.9525%, darkblue 28.9525%, darkblue 32.44416%, transparent 32.44416%, transparent 33.77792%, darkblue 33.77792%, darkblue 37.26958%, transparent 37.26958%, transparent 38.60333%, darkblue 38.60333%, darkblue 42.095%, transparent 42.095%, transparent 43.42875%, darkblue 43.42875%, darkblue 46.92042%, transparent 46.92042%, transparent 48.25417%, darkblue 48.25417%, darkblue 51.74583%, transparent 51.74583%, transparent 53.07958%, darkblue 53.07958%, darkblue 56.57125%, transparent 56.57125%, transparent 57.905%, darkblue 57.905%, darkblue 61.39667%, transparent 61.39667%, transparent 62.73042%, darkblue 62.73042%, darkblue 66.22208%, transparent 66.22208%, transparent 67.55584%, darkblue 67.55584%, darkblue 71.0475%, transparent 71.0475%, transparent 72.38125%, darkblue 72.38125%, darkblue 75.87292%, transparent 75.87292%, transparent 77.20667%, darkblue 77.20667%, darkblue 80.69833%, transparent 80.69833%, transparent 82.03209%, darkblue 82.03209%, darkblue 85.52375%, transparent 85.52375%, transparent 86.8575%, darkblue 86.8575%, darkblue 90.34917%, transparent 90.34917%, transparent 91.68292%, darkblue 91.68292%, darkblue 95.17458%, transparent 95.17458%, transparent 96.50834%, darkblue 96.50834%, darkblue 100.0%, transparent 100.0%);
+  content: "";
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  max-width: 1920px;
+  opacity: 0.4;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: -1;
 }
 
 .aboutme {
-  display: inline-block;
-  height: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30em;
   width: 100%;
   background-color: #9BBDF2;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
 }
 .aboutme .aboutmeimg {
   display: inline-block;
-  height: 15em;
-  width: 15em;
-  background-color: white;
+  height: 80%;
+  width: 80%;
+  background-image: url("../img/face.png");
+  background-position: center;
+  background-size: 100%, 100%;
   z-index: 1;
   border-radius: 50%;
   margin: 5em 0 0 5em;
-  border: 1px solid black;
+  border: 1em solid white;
 }
 .aboutme .aboutmetext {
   text-align: left;
   z-index: 5;
-  margin: 0 0 1em 0;
+  padding: 2em 0 0 0;
   border: 1px solid black;
+  height: 100%;
+  width: 100%;
+}
+
+.skillscontent p {
+  margin-bottom: 30px;
+}
+.skillscontent .item {
+  font-size: 16px;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.skillscontent .item-level {
+  float: right;
+  color: #ccd1d6;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", arial, sans-serif;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.skillscontent .level-bar {
+  height: 15px;
+  width: 100%;
+  background-color: #dfdfdf;
+}
+.skillscontent .level-bar .level-bar-inner {
+  height: 15px;
+  background-color: #66cb8c;
+}
+.skillscontent .level-bar #html-css {
+  width: 40%;
+}
+.skillscontent .level-bar #sass {
+  width: 15%;
+}
+.skillscontent .level-bar #c-sharp {
+  width: 30%;
+}
+
+.info li {
+  margin-bottom: 15px;
+}
+.info li i {
+  margin-right: 20px;
+  color: #ccd1d6;
+}
+
+.education .title {
+  font-size: 16px;
+  margin-top: 0;
+}
+.education .university, .education h4 {
+  font-family: "Lato", arial, sans-serif;
+  font-size: 13px;
+  color: #999;
+  font-weight: 600;
+  padding-left: 25px;
+}
+.education .university .year, .education h4 .year {
+  color: #b0b7bf;
+  font-weight: 500;
+}
+
+li {
+  padding-left: 0;
+  list-style: none;
+}
+
+.item:not(#last) {
+  margin-bottom: 15px;
+}
+
+.title {
+  color: #778492;
+}
+
+.level {
+  color: #999;
+}
+.level i {
+  color: #66cb8c;
 }
 
 body {
-  background-image: url("../../img/ignasi_pattern_s.png");
+  font-family: "Lato", arial, sans-serif;
+  color: #434343;
+  background: #DAE3E7;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
 }
-body .page-wrap {
-  max-width: 1300px;
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #778492;
+}
+body .page-content-primary, body .page-content-side {
+  max-width: 1920px;
   margin-left: auto;
   margin-right: auto;
 }
-body .page-wrap::after {
+body .page-content-primary::after, body .page-content-side::after {
   clear: both;
   content: "";
   display: table;
 }
-body .page-wrap .workgallery {
-  z-index: 2;
+body .page-content-primary {
+  float: left;
+  display: block;
+  margin-right: 1.33375%;
+  width: 42.095%;
+  margin-left: 14.47625%;
+}
+body .page-content-primary:last-child {
+  margin-right: 0;
+}
+body .page-content-side {
+  float: left;
+  display: block;
+  margin-right: 1.33375%;
+  width: 27.61875%;
+}
+body .page-content-side:last-child {
+  margin-right: 0;
+}
+body .primary, body .side {
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #545e69;
+  font-size: 28px;
+}
+.heading #last {
+  margin-bottom: 0px;
+}
+
+.overlay {
+  position: fixed;
+  margin: 0 0 0 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 5;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.overlay:target #DeathTrap {
+  display: none;
+}
+.overlay:target .popup {
+  background-color: white;
+  margin: 70px auto;
+  padding: 30px;
+  border-radius: 2px;
+  height: 100%;
+  width: 1200px;
+}
+.overlay:target .popup .content {
+  height: 100%;
+  width: 100%;
+}
+.overlay:target .popup .content #gameInfo, .overlay:target .popup .content #gameDescription {
+  border: 1px solid black;
+  height: 10%;
+  width: 50%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.overlay:target .popup .content #gameDescription {
+  float: right;
+}
+
+.popup .close {
+  position: absolute;
+  top: 80px;
+  right: 440px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #545e69;
+}
+@media(max-width: 400px) {
+  .popup .close {
+    right: 250px;
+  }
+}
+.close:hover {
+  color: #ff6666;
+}
+
+.placeholder {
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+
+#video {
+  height: 529px;
+  width: 100%;
+}
+
+body {
+  font-family: "Lato", arial, sans-serif;
+  color: #434343;
+  background: #DAE3E7;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #778492;
+}
+body .page-content-primary, body .page-content-side {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body .page-content-primary::after, body .page-content-side::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+body .page-content-primary {
+  float: left;
+  display: block;
+  margin-right: 1.33375%;
+  width: 42.095%;
+  margin-left: 14.47625%;
+}
+body .page-content-primary:last-child {
+  margin-right: 0;
+}
+body .page-content-side {
+  float: left;
+  display: block;
+  margin-right: 1.33375%;
+  width: 27.61875%;
+}
+body .page-content-side:last-child {
+  margin-right: 0;
+}
+body .primary, body .side {
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #545e69;
+  font-size: 28px;
+}
+.heading #last {
+  margin-bottom: 0px;
 }

@@ -3,40 +3,69 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
+  <title>Daan Epke - Portfolio</title>
   <link rel="stylesheet" href="css/main.css">
   <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
   <script src="https://use.fontawesome.com/3f9e455b07.js"></script>
+  <link rel="icon" href="img/laptop-icon-24.png">
 </head>
 
-<body>
+<body id="home">
 
-
+<!--Death Trap Popup-->
   <div id="DeathTrap" class="overlay">
     <div class="popup">
-      <a class="close" href="index.html">X</a>
       <div class="content">
+        <a class="close" href="#home">X</a>
         <h1 class="heading">Death Trap</h1>
-          <div class="placeholder" id="video"></div>
+          <iframe id="video" src="https://www.youtube.com/embed/9TdghG3yTDY" frameborder="0" allowfullscreen></iframe>
           <div id="gameInfo">
             <h3>Info</h3>
-            <p>Tri-tip doner loin ham ribs tip cow tenderloin ham brisket pig ham strip pork
-            ham meatball pig ham venison bregenwurst pig ham tip rump filet shank, tip
-            salami ham shank, cow hock ham short tip cow pig spare ground tail.
-            </p>
+            <ul>
+            <li><strong>Name:</strong> Death Trap</li>
+            <li><strong>Team Size:</strong> 4</li>
+            <li><strong>Time Span:</strong> 4 weeks</li>
+            <li><strong>Game Artists:</strong> Peije Steinz & Giovanni Dering</li>
+            <li><strong>Game Developers:</strong> Danny Kruiswijk & Daan Epke</li>
+            </ul>
           </div>
           <div id="gameDescription">
             <h3>Description</h3>
-            Pig tip sopressata, ham drumstick ham turducken cow ribs bierschinken turducken
-            rump prosciutto, flank biltong porchetta pig cow pork doner tongue porchetta,
-            pig beef landjaeger, bacon tenderloin sopressata ham cow jowl turkey loin
-            sausage. Tri-tip pig pork andouille, tri-tip tip meatball, rump brisket pig
-            frankfurter tip belly sirloin hamburger, cow shank tri-tip bierschinken,
-            porchetta t-bone shankle ham ham tail bierschinken, ground ham shoulder.
+            <p>A just-for-fun physics based drop-down game made in Unity C#. We took inspiration from Overlord, made it quite bloody and added body dismemberment.</p>
+            <p id="link">Link to the Body Dismemberment script:</p>
+            <ul class="links"><li><a href=""><i class="fa fa-github-alt fa-lg" aria-hidden="true"></i></a></li></ul>
           </div>
       </div>
     </div>
   </div>
+<!--/Death Trap Popup-->
+
+<!--Destructable Terrain Popup-->
+<div id="destruct" class="overlay">
+    <div class="popup">
+      <div class="content">
+        <a class="close" href="#home">X</a>
+        <h1 class="heading">Destructible Terrain</h1>
+          <img id="popupimg" src="img/popup_dt_1.png" alt="">
+          <div id="gameInfo">
+            <h3>Info</h3>
+            <ul>
+            <li><strong>Name:</strong> Destructable Terrain</li>
+            <li><strong>Team Size:</strong> 1</li>
+            <li><strong>Time Span:</strong> 1 weeks</li>
+            <li><strong>Game Developers:</strong> Daan Epke</li>
+            </ul>
+          </div>
+          <div id="gameDescription">
+            <h3>Description</h3>
+            <p>A assignment we did to see if we could complete test assignments for possible internships in the Dutch Game Industry</p>
+            <p id="link">Link to the repository:</p>
+            <ul class="links"><li><a href="https://github.com/Daankovski/DestructableTerrain" target="_blank"><i class="fa fa-github-alt fa-lg" aria-hidden="true"></i></a></li></ul>
+          </div>
+      </div>
+    </div>
+  </div>
+<!--/Destructable Terrain Popup-->
 
   <div id="header">
     <div class="container">
@@ -45,9 +74,8 @@
           <h1 class="name">Daan Epke</h1>
           <h2 class="desc">Media- & Game Developer</h2>
           <ul class="links">
-            <li><a href=""><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-            <li><a href=""><i class="fa fa-github-alt fa-lg" aria-hidden="true"></i></a></li>
-            <li><a href=""><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+            <li><a href="https://github.com/Daankovski" target="_blank"><i class="fa fa-github-alt fa-lg" aria-hidden="true"></i></a></li>
+            <li><a href="https://nl.linkedin.com/in/danielepke" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
           </ul>
         </div>
     </div>
@@ -58,42 +86,33 @@
       <div class="primary">
          <div id="aboutme">
             <h2 class="heading">About Me</h2>
-            <p>Spicy jalapeno bacon ipsum dolor amet burgdoggen meatloaf hamburger fatback, meatball alcatra sirloin rump drumstick spare ribs. Picanha flank pork loin shoulder. Ham venison boudin swine, kevin pork belly pig corned beef strip steak short loin spare ribs kielbasa rump cupim. Hamburger doner pork andouille meatball landjaeger filet mignon kevin tail ball tip pork chop shank. Prosciutto ground round sausage meatball leberkas short ribs boudin doner picanha, hamburger tri-tip pastrami frankfurter chuck. Short ribs t-bone jerky chuck. Short ribs brisket venison cow jerky tri-tip.</p>
+            <p>Hi,</p>
+            <p>My name is Daniel Epke or Daan for short. I'm 18 years old and a Dutch student living in Assendelft and studying Game-Development in Amsterdam at Mediacollege Amsterdam and I also like to do some Web Development on the side.</p>
+            <p> Currently the languages that I mainly code in are C#, HTML, CSS and SASS/SCSS and I did some ActionScript in the past, but I'm always eager to learn something new that can help me get better at what I do.</p>
          </div>
-
-
-
       </div>
-
       <!--Latest Projects-->
       <div class="primary">
         <div class="latest_projects">
-          <h2 class="heading">Latest Projects</h2>
-            <a class="button" href="#DeathTrap"><img src="http://lorempixel.com/800/325/technics" alt=""></a>
-            <h3></h3>
-          <p>Ribs cow ham boudin porchetta. Pig bacon tri-tip tri-tip, tenderloin jerky tip
-            prosciutto bierschinken ham tip jerky venison braunschweiger, corned tip ham
-            chop tri-tip, belly drumstick ham braunschweiger, porchetta braunschweiger ham
-            sausage, tri-tip beef pastrami tip doner ham pastrami ham round. Bresaola pig
-            jowl tip cow prosciutto ham capicola, biltong ball belly fatback belly cow
-            pancetta ribs kielbasa chicken, kielbasa braunschweiger tip leberkas, pork
-            andouille cow sopressata, ham tip kevin chuck kevin, ham sausage tip meatball.
-            Ham bacon bresaola frankfurter, tip drumstick tip sirloin. Pig short filet ribs
-            biltong tip drumstick bregenwurst tip pancetta. Pork leberkas cow pork filet,
-            cow ham flank turducken.</p>
-          <p>Cow pig spare meatball. Fatback kevin fatback pastrami tip bresaola mignon
-            venison ham beef cow ham beef drumstick ham brisket tip pork turducken. Pastrami
-            pig biltong cow tongue pastrami tip sopressata pig pastrami ham ground, sirloin
-            jowl capicola ham tri-tip tongue ham sirloin bierschinken ham tip steak tri-tip
-            pig corned ham bresaola ham strip cow ham biltong cow chicken. Ham spare pork
-            tip porchetta, pork pig andouille, pig tri-tip bregenwurst ham bresaola salami
-            tri-tip shoulder, kielbasa loin cow landjaeger braunschweiger, tenderloin ham
-            ribs cow shank shoulder ham belly t-bone, shoulder spare chicken. Jerky ham ham
-            chuck pancetta, corned turducken pig porchetta, ball cow fatback, shoulder belly
-            leberkas, pastrami beef ham leberkas sopressata, tip mignon pancetta
-            bierschinken, ham ham ribs ground ground, turkey landjaeger pig ribs round. Ham
-            kevin swine ground pancetta cow tip hamburger bierschinken. Beef tip tenderloin
-            ham doner.</p>
+         <div class="maincontent">
+             <h2 class="heading">Latest Projects</h2>
+              <h3 class="title" id="summarytitle"><a href="#DeathTrap">Death Trap - Unity C#</a></h3>
+              <p class="summary">A small physics-based game with some Overlord inspiration made in Unity.</p>
+              <a class="button" href="#DeathTrap"><img src="img/Logo_DT.png" alt=""></a>
+              <p>This was a small game made for a school project. We took some inspiration from Overlord and used its story as a concept for the game.</p>
+              <p>The idea was to make a funny physics based game with features like body-dismemberment and lots of blood.
+              </p>
+         </div>
+
+          <hr id="divider">
+
+          <div class="itemrow">
+            <a href="#destruct"><img src="img/pic_dt.png" alt="" id="rowimg"></a>
+             <div class="description">
+              <h3 class="title" id="rowtitle"><a href="#destruct">Destructable Terrain - Unity C#</a></h3>
+              <p>This was small project we had to do to get familiar with how game companies might give you a test assignment to see if you are a possible internship candidate.</p>
+            </div>
+          </div>
         </div>
       </div>
   </div>
@@ -118,18 +137,18 @@
           <div id="skills">
             <h2 class="heading">Skills</h2>
             <div class="skillscontent">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt repudiandae, deserunt consequuntur vitae id, veritatis nulla odit dolorem fugit quas recusandae. Voluptatibus aspernatur nostrum quos, libero molestias accusamus voluptates illum!</p>
+              <p>I enjoy doing Web & Game development, but Web Development is what got me started coding in the first place.</p>
               <div class="skillset">
                 <div class="item">
                   <h3 class="item-title">HTML5 & CSS3
-                    <span class="item-level">Intermediate</span>
+                    <span class="item-level">Proficient</span>
                   </h3>
                   <div class="level-bar">
                     <div class="level-bar-inner" id="html-css"></div>
                   </div>
                 </div>
                 <div class="item">
-                  <h3 class="item-title">SASS
+                  <h3 class="item-title">SASS & SCSS
                     <span class="item-level">Beginner</span>
                   </h3>
                   <div class="level-bar">
@@ -138,7 +157,7 @@
                 </div>
                 <div class="item">
                   <h3 class="item-title">C#
-                    <span class="item-level">Intermediate</span>
+                    <span class="item-level">Familiar</span>
                   </h3>
                   <div class="level-bar">
                     <div class="level-bar-inner" id="c-sharp"></div>
@@ -177,7 +196,7 @@
            <h2 class="heading">Languages</h2>
            <ul>
               <li class="item">
-                <span class="title"><strong>Dutch:</strong></span>
+                <span class="language"><strong>Dutch:</strong></span>
                 <span class="level">Native Speaker
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
@@ -187,7 +206,7 @@
                 </span>
               </li>
               <li class="item">
-                <span class="title" id="last"><strong>English: </strong></span>
+                <span class="language" id="last"><strong>English: </strong></span>
                 <span class="level">Professional Proficiency
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
@@ -196,7 +215,21 @@
                 </span>
               </li>
            </ul>
+          </div>
+        </div>
+      </div>
 
+      <div class="side">
+        <div class="conferences">
+          <div class="content">
+            <h2 class="heading">Conferences</h2>
+            <ul>
+              <li class="item"><i class="fa fa-calendar"></i> <span class="language">GamesCon 2015</span> <span>(Cologne)</span></li>
+              <li class="item"><i class="fa fa-calendar"></i> <span class="language">Indigo 2015</span> <span>(Utrecht)</span></li>
+              <li class="item"><i class="fa fa-calendar"></i> <span class="language">Indievelopment 2016</span> <span>(Utrecht)</span></li>
+              <li class="item"><i class="fa fa-calendar"></i> <span class="language">Indigo 2016</span> <span>(Utrecht)</span></li>
+              <li class="item"><i class="fa fa-calendar"></i> <span class="language">FirstLook 2016</span> <span>(Utrecht)</span></li>
+            </ul>
           </div>
         </div>
       </div>
